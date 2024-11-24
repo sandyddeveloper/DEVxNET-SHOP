@@ -1,5 +1,6 @@
 import AdBanner from "@/components/AdBanner";
 import Deals from "@/components/Deals";
+import CategoriesSection from "@/components/layout/CompactProducts";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import Hero from "@/components/layout/Hero";
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <ChatBot />
       </div>
+      <CategoriesSection />
       <Deals />
       <AdBanner />
       <Footer />
