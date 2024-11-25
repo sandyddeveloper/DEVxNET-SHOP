@@ -5,12 +5,13 @@ import SimilarProducts from "@/components/SimilarProducts";
 import ReviewSection from "@/components/ReviewSection";
 import ProductNavbar from "@/components/ui/productNavbar";
 import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
 
 const ProductPage = () => {
   return (
     <>
-      <ProductNavbar />
-      <div className="max-w-5xl mx-auto p-6">
+      <Header />
+      <div className="max-w-5xl mx-auto p-6 py-44">
         {/* Main Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <ProductGallery />
